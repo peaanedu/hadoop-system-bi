@@ -145,7 +145,7 @@ sudo mv hadoop-3.3.6 hadoop
 ### 2. Copy Configuration Files
 
 ```bash
-sudo cp ~https://github.com/merajsiddieque/PowerBI_ODBC_Hive_Hadoop/tree/main/Config_Files/Hadoop_Config_Files/*.xml /usr/local/hadoop/etc/hadoop/
+sudo cp ~https://github.com/peaanedu/hadoop-system-bi.git/Hadoop_Config_Files/*.xml /usr/local/hadoop/etc/hadoop/
 ```
 
 ### 3. Format NameNode
@@ -195,7 +195,7 @@ sudo mv apache-hive-4.0.1-bin hive
 ### 2. Configure Hive
 
 ```bash
-sudo cp ~https://github.com/merajsiddieque/PowerBI_ODBC_Hive_Hadoop/tree/main/Config_Files/Hive_Config_Files/hive-site.xml /usr/local/hive/conf/
+sudo cp ~https://github.com/peaanedu/hadoop-system-bi/Config_Files/Hive_Config_Files/hive-site.xml /usr/local/hive/conf/
 ```
 
 ### 3. Set Hadoop Path in `hive-env.sh`
@@ -253,7 +253,7 @@ Configure the DSN (Data Source Name) in `Add` .
 ```ini
 Open ODBC (64-bit)
 -> System DSN -> Add -> 
-Data Source Name = PowerBI_ODBC_Hive_Hadoop
+Data Source Name = hadoop-ecosystem-bi
 Host = Ip = Linux -> hostname -I
 Port = 10000
 Database = default

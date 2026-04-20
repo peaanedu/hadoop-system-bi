@@ -44,8 +44,13 @@ ls /opt/hadoop/etc/hadoop/
 mkdir -p /usr/local/hadoop/etc/hadoop/
 
 sudo cp cp SetUp/Hadoop/Single\ Node\ Cluster/Hadoop_Config_Files/*.xml /usr/local/hadoop/etc/hadoop/
-sudo cp ~SetUp/Hive/Hive_Config_Files/hive-site.xml /usr/local/hive/conf/
+sudo cp SetUp/Hive/Hive_Config_Files/hive-site.xml /usr/local/hive/conf/
 
+
+root@hadoopecosystem:~/hadoop-system-bi# cp SetUp/Hadoop/Single\ Node\ Cluster/Hadoop_Config_Files/*.xml /usr/local/hadoop/etc/hadoop/
+root@hadoopecosystem:~/hadoop-system-bi# ls /usr/local/hadoop/etc/hadoop/
+core-site.xml  hdfs-site.xml  mapred-site.xml  yarn-site.xml
+root@hadoopecosystem:~/hadoop-system-bi# 
 ```
 
 ---

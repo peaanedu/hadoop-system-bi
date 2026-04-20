@@ -39,7 +39,11 @@ Copy the configuration files:
 git clone https://github.com/peaanedu/hadoop-system-bi.git
 cd hadoop-ecosystem-bi
 
-sudo cp ~SetUp/Hadoop/Single Node Cluster/Hadoop_Config_Files/*.xml /usr/local/hadoop/etc/hadoop/
+ls /opt/hadoop/etc/hadoop/
+
+mkdir -p /usr/local/hadoop/etc/hadoop/
+
+sudo cp cp SetUp/Hadoop/Single\ Node\ Cluster/Hadoop_Config_Files/*.xml /usr/local/hadoop/etc/hadoop/
 sudo cp ~SetUp/Hive/Hive_Config_Files/hive-site.xml /usr/local/hive/conf/
 
 ```

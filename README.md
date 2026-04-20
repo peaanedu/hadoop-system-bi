@@ -39,7 +39,9 @@ Copy the configuration files:
 git clone https://github.com/peaanedu/hadoop-system-bi.git
 cd hadoop-ecosystem-bi
 
-ls /opt/hadoop/etc/hadoop/
+ls /usr/local/hadoop/etc/
+/hadoop
+/hive
 
 mkdir -p /usr/local/hadoop/etc/hadoop/
 
